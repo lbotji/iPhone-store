@@ -150,6 +150,45 @@
      background: #0056b3;
  }
 
+  .reviews-section {
+      padding: 60px 8%;
+      background: #fff;
+      text-align: center;
+  }
+
+  .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+  }
+
+  .review-card {
+      padding: 30px;
+      border-radius: 20px;
+      background: var(--light-grey);
+      text-align: left;
+  }
+
+  .stars {
+      color: var(--gold);
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+  }
+
+  .reviewer-name {
+      font-weight: 800;
+      font-size: 0.9rem;
+      margin-top: 15px;
+      display: block;
+  }
+
+  .reviewed-model {
+      font-size: 0.8rem;
+      color: var(--blue);
+      font-weight: 600;
+  }
+
  /* Policies Section */
  .policy-section {
      background: var(--light-grey);
