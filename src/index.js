@@ -1,4 +1,4 @@
-<script>
+
     const modal = document.getElementById("profileModal");
     const btn = document.getElementById("profileTrigger"); // We'll add this ID to your icon
     const closeBtn = document.querySelector(".close-modal");
@@ -20,4 +20,3 @@
             modal.classList.remove("active");
         }
     }
-</script>
